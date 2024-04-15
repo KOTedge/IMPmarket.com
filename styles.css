@@ -5,21 +5,51 @@
 .up{
     height: 160px;
     width: 100%;
-    background-color: rgb(48, 53, 55);
+    background-color: rgb(116, 124, 127);
     display: flex;
     align-items: center ;
 }
 .upbutton{
     height: 150px;
     width: 200px;
+    background-color: rgb(224, 101, 105);
 }
 .logo{
     height: 150px;
     width: 300px;
+    background-color: rgb(190, 1, 7);
 }
 .logo img{
     width: 100%;
 }
-.walet{
-    color: aliceblue;
+.wallet{
+    color: #ffb158;
+         padding: 100px;
+       
+}
+main{
+    background-color: rgb(93, 93, 93);
+    display: flex;
+    align-items: center ;
+}
+.store{
+    height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+
+}
+.button{
+    display: flex;
+    justify-content: center;
+    height: 60%;
+    weight: 50%;
+    background-color: rgb(93, 93, 93);
+}
+.arrows{
+    background-color: rgb(93, 93, 93);
+}
+.price{
+    align-self: self-end;
+    color: #ffb158;
 }
