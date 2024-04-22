@@ -30,7 +30,7 @@
 main{
     background-color: rgb(93, 93, 93);
     display: flex;
-    align-items: center ;
+    align-items: center;
 }
 .store{
     height: 50%;
@@ -43,8 +43,9 @@ main{
     display: flex;
     justify-content: center;
     height: 60%;
-    weight: 50%;
+    width: 100%;
     background-color: rgb(93, 93, 93);
+    border: none;
 }
 .arrows{
     background-color: rgb(93, 93, 93);
@@ -52,4 +53,33 @@ main{
 .price{
     align-self: self-end;
     color: #ffb158;
+}
+.tb{
+    width: 100%;
+    height: 200%;
+    align-items:self-end ;
+    justify-content: center;
+    display: flex;
+}
+.buttonLow{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(40, 40, 40);
+    border: radius;
+    border-width: 5px;
+    margin: 0;
+    padding: 0;
+}
+.storeLow{
+    width: 50vh;
+    height: 65vh;
+}
+.tb{
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.black{
+    background-color: black;
 }
