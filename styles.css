@@ -59,7 +59,7 @@ main{
     background-color: rgb(93, 93, 93);
 }
 .price{
-    align-self: self-end;
+    align-self: center;
     color: #ffb158;
 }
 .tb{
@@ -79,8 +79,9 @@ main{
     padding: 0;
 }
 .storeLow{
-    width: 50vh;
+    width: 100%;
     height: 65vh;
+    
 }
 .tb{
     background-color: rgb(34, 34, 34);
@@ -167,4 +168,37 @@ footer{
     align-items: center;
     font-size:30px;
     color: beige;
+}
+.libIcon{
+    width: 25%;
+    height: 50%;
+    background-color: rgb(40, 40, 40);
+    border-width: 5px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.libary{
+    display: flex;
+    /* column-gap: 30px; */
+    flex-wrap: wrap;
+}
+.txtlibary{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size:30px;
+    color: beige;   
+}
+.dowbtn{
+    background-color: rgb(224, 101, 105);
+    position: absolute;
+    top: 50vw; right: 23vh;
+    width: 32vw;
+    height: 18vh;
+    font-size:70px;
+    text-decoration: none;
+    color: black;
 }
