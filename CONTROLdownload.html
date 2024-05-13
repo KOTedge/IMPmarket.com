@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTROL на IMPerialMarket</title>
+    <link rel="shortcut icon" href="impMINI.png" />
+    <link rel="stylesheet" href="styles.css">
+
+
+
+</head>
+<body>
+    <header>
+        <div class="up">
+            <button class="logo"><img src="imp.png" alt="logo"></button>
+            <button onclick="window.location.href = 'index.html';" class="upbutton"><H3>Главная</H3></button>         
+            <button  onclick="window.location.href = 'libary.html';" class="upbutton"><H3>Библиотека</H3></button>
+            <button class="upbutton"><H3>Пополнить</H3></button>  
+            <h3 class="wallet">Баланс:0 RUB</h3>
+        </div>
+    </header>
+    <main>
+        <div  class="baseMarket">
+        <!-- <img src="https://cdn1.epicgames.com/offer/b7b42e2078524ab386a8b2a9856ef557/EGS_SIFUStandardEdition_Sloclap_S4_1200x1600-32aca69d756abfcc25f8581942a6162b_1200x1600-32aca69d756abfcc25f8581942a6162b?h=480&quality=medium&resize=1&w=360" alt=""> -->
+       <iframe  class="youtube" src="https://www.youtube.com/embed/w6bE11FrSFM?si=21CcbSLGAeML-6fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+ <img class="buyMenu" src="buy.png" alt="">
+ <h3 class="buyName">CONTROL</h3>
+
+ <a  href="CONTROL.exe" download class="dowbtn"> →СКАЧАТЬ← </a>
+        </div>
+        
+    </main>
+    <div class="black">IMPerial</div>
+ <div class="main2">
+    <div class="overviev">
+        <h3 class="bigtxt">CONTROL™</h3>
+        <h3 class="smtxt"> Тайное агентство в Нью-Йорке вдруг оказывается во власти потусторонних сил — именно вам предстоит стать его новым директором и попытаться восстановить контроль.
+            В сверхъестественном экшен-шутере от третьего лица от студии Remedy Entertainment вам предстоит освоить паранормальные способности, модифицируемое оружие и переменчивую среду и ринуться с боем в таинственный и непредсказуемый мир.
+            Control — это история Джесси Фейден (Jesse Faden), которая не перестаёт искать ответы, пока вживается в роль директора. Мир в игре Control загадочен, и у всех союзников, которых Джесси встречает на пути, своя история. Вместе с другими агентами Бюро она раскрывает странные эксперименты и тайны.</h3>
+
+    </div>
+    
+    <div class="diogrammaDIV">
+        <img class="diogramma" src="CONTROLmeta.png" alt=""> 
+        <h3 class="bigtxt2">Платформы:WINDOWS</h3>
+        <h3 class="bigtxt2">Разработчик:Remedy Ent.</h3>
+        <h3 class="bigtxt2">Издатель:505 Games</h3>
+        <h3 class="bigtxt2">Дата выхода:27/08/19</h3>
+    </div>
+    
+    
+    <!-- <h3>Платформы: windows</h3> -->
+ </div>
+ 
+    <footer>
+        <h3 class="ft">IMPerialMarket</h3>
+        <h3 class="ft">Это просто сайт</h3>
+        <h3 class="ft">Связаться:qwertylike54@gmail.com</h3>
+    </footer>
+    <script>
+        const controlBuy = document.querySelector(".buybtn");
+        controlBuy.addEventListener("click", (e)=> {
+            localStorage.setItem("IsControlBuyed", "1");
+        })
+    </script>
+</body>
+</html>

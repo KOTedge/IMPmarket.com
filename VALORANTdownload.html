@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VALORANT на IMPerialMarket</title>
+    <link rel="shortcut icon" href="impMINI.png" />
+    <link rel="stylesheet" href="styles.css">
+
+
+
+</head>
+<body>
+    <header>
+        <div class="up">
+            <button class="logo"><img src="imp.png" alt="logo"></button>
+            <button onclick="window.location.href = 'index.html';" class="upbutton"><H3>Главная</H3></button>         
+            <button  onclick="window.location.href = 'libary.html';" class="upbutton"><H3>Библиотека</H3></button>
+            <button class="upbutton"><H3>Пополнить</H3></button>  
+            <h3 class="wallet">Баланс:0 RUB</h3>
+        </div>
+    </header>
+    <main>
+        <div  class="baseMarket">
+        <!-- <img src="https://cdn1.epicgames.com/offer/b7b42e2078524ab386a8b2a9856ef557/EGS_SIFUStandardEdition_Sloclap_S4_1200x1600-32aca69d756abfcc25f8581942a6162b_1200x1600-32aca69d756abfcc25f8581942a6162b?h=480&quality=medium&resize=1&w=360" alt=""> -->
+       <iframe  class="youtube" src="https://www.youtube.com/embed/B6_kM8rfS8w?si=M0TPTKuezXDuToDF"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+ <img class="buyMenu" src="buy.png" alt="">
+ <h3 class="buyName">VALORANT</h3>
+ <a  href="VALORANT.exe" download class="dowbtn"> →СКАЧАТЬ← </a>
+        </div>
+        
+    </main>
+    <div class="black">IMPerial</div>
+ <div class="main2">
+    <div class="overviev">
+        <h3 class="bigtxt">СРАЖАЙТЕСЬ С ИГРОКАМИ СО ВСЕГО МИРА</h3>
+        <h3 class="smtxt">Найдите свой уникальный стиль и испытайте себя на международной соревновательной сцене. Атакуйте и защищайтесь: в вашем распоряжении огромный арсенал оружия и тактических умений, но в каждом раунде у вас всего одна жизнь. Если не хотите потерять её, думайте быстрее противника.
+        <h3 class="bigtxt">ИЗОБРЕТАТЕЛЬНОСТЬ — ВАШЕ ГЛАВНОЕ ОРУЖИЕ</h3>
+        <h3 class="smtxt">Это не просто шутер. У каждого агента в VALORANT есть свой набор полезных и смертоносных умений, которые позволяют разнообразить игровой процесс. Все карты здесь созданы для самых разных командных стратегий, а также ярких и решающих моментов. Станьте примером для подражания.</h3>
+    </div>
+    
+    <div class="diogrammaDIV">
+        <img class="diogramma" src="SIFUmeta.png" alt=""> 
+        <h3 class="bigtxt2">Платформы:WINDOWS</h3>
+        <h3 class="bigtxt2">Разработчик:Riot Games</h3>
+        <h3 class="bigtxt2">Издатель:Riot Games</h3>
+        <h3 class="bigtxt2">Дата выхода:03/06/20</h3>
+    </div>
+    
+    
+    <!-- <h3>Платформы: windows</h3> -->
+ </div>
+ 
+    <footer>
+        <h3 class="ft">IMPerialMarket</h3>
+        <h3 class="ft">Это просто сайт</h3>
+        <h3 class="ft">Связаться:qwertylike54@gmail.com</h3>
+    </footer>
+    <script>
+        const sifuBuy = document.querySelector(".buybtn");
+        sifuBuy.addEventListener("click", (e)=> {
+            localStorage.setItem("IsValorantBuyed", "1");
+        })
+    </script>
+</body>
+</html>
